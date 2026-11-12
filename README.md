@@ -1,22 +1,25 @@
-# 💸 Week08 Bootcamp2019a Project: Node Coin Flip Game
+# Node Coin Flip Game
 
-### Goal: Create a simple web application that uses the fs and http modules. Use http to create the server and fs to read your html file. Include vanilla ES6 js in a script tag at the bottom of your html file. Try creating a coin flip guessing game
+A small server-side coin-flip guessing game built to practice Node's HTTP and filesystem modules, serving an HTML page and handling requests.
 
-### How to submit your code for review:
+## Technology
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Node.js built-in HTTP and filesystem modules; HTML and JavaScript
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+## Run locally
+
+Use Node.js. Clone the repository, run `git switch answer`, then start the server with `node server.js`. Open the local address printed by the server (the implementation uses its configured port). No third-party packages are required.
+
+## Solution code
+
+The completed implementation is on the `answer` branch. Switch to it with `git switch answer` after cloning.
+
+[View the solution branch on GitHub](https://github.com/Nlewi-glitch089/node-coin-flip-bootcamp/tree/answer).
+
+## Project context
+
+This repository began as a Resilient Coders / bootcamp coding exercise. The original assignment prompt is preserved in the repository history; this README describes the implementation branch so visitors can understand what the code does and how to try it.
+
+## Hosting
+
+These are small learning exercises, not currently documented as live hosted applications. They can be run locally using the instructions above. A static project could be published with GitHub Pages if a public demo is useful; the Node server projects need a Node-capable host.
