@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 // __dirname so it still finds the file if I start node from a different folder
 const HTML_FILE = path.join(__dirname, 'index.html');
 
